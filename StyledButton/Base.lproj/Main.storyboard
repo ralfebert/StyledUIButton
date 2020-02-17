@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Buttons View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ButtonsViewController" customModule="StyledButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJT-qQ-8Hq">
+                                <rect key="frame" x="66" y="30" width="106" height="38"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="10" maxX="30" maxY="10"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3X-Fg-B3y">
+                                <rect key="frame" x="66" y="83" width="106" height="38"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="10" maxX="30" maxY="10"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.19889020199999999" green="0.20732971689999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEO-JD-Cvc">
+                                <rect key="frame" x="66" y="151" width="147" height="53"/>
+                                <inset key="contentEdgeInsets" minX="30" minY="10" maxX="30" maxY="10"/>
+                                <state key="normal" title="Button" backgroundImage="ButtonShape"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eq-pZ-kTW">
+                                <rect key="frame" x="66" y="219" width="206" height="78"/>
+                                <inset key="contentEdgeInsets" minX="80" minY="30" maxX="80" maxY="30"/>
+                                <state key="normal" title="Button" backgroundImage="ButtonShape"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sEO-JD-Cvc" firstAttribute="leading" secondItem="AJT-qQ-8Hq" secondAttribute="leading" id="7Me-xK-CgP"/>
+                            <constraint firstItem="sEO-JD-Cvc" firstAttribute="top" secondItem="A3X-Fg-B3y" secondAttribute="bottom" constant="30" id="MBx-LZ-rJH"/>
+                            <constraint firstItem="AJT-qQ-8Hq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="PXg-Yg-m4p"/>
+                            <constraint firstItem="9eq-pZ-kTW" firstAttribute="leading" secondItem="AJT-qQ-8Hq" secondAttribute="leading" id="a7p-jI-IE3"/>
+                            <constraint firstItem="A3X-Fg-B3y" firstAttribute="leading" secondItem="AJT-qQ-8Hq" secondAttribute="leading" id="k2J-dE-jM4"/>
+                            <constraint firstItem="AJT-qQ-8Hq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="mrh-pc-asw"/>
+                            <constraint firstItem="9eq-pZ-kTW" firstAttribute="top" secondItem="sEO-JD-Cvc" secondAttribute="bottom" constant="15" id="xA5-pW-CxJ"/>
+                            <constraint firstItem="A3X-Fg-B3y" firstAttribute="top" secondItem="AJT-qQ-8Hq" secondAttribute="bottom" constant="15" id="zjb-pQ-7pP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="AJT-qQ-8Hq" id="DcA-Re-2d7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="435.83208395802103"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ButtonShape" width="147" height="53"/>
+    </resources>
+</document>
