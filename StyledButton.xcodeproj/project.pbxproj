@@ -12,7 +12,8 @@
 		BF420C721BBBFEA9009C3200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF420C701BBBFEA9009C3200 /* Main.storyboard */; };
 		BF420C741BBBFEA9009C3200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF420C731BBBFEA9009C3200 /* Assets.xcassets */; };
 		BF420C771BBBFEA9009C3200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF420C751BBBFEA9009C3200 /* LaunchScreen.storyboard */; };
-		BF54E1871BBC023900FA2352 /* UIViewInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E1861BBC023900FA2352 /* UIViewInspectable.swift */; };
+		BF9FE7D5240C2CCF00678305 /* StylableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE7D4240C2CCF00678305 /* StylableButton.swift */; };
+		BF9FE7D7240C2F0B00678305 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE7D6240C2F0B00678305 /* StyledButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		BF420C731BBBFEA9009C3200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF420C761BBBFEA9009C3200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF420C781BBBFEA9009C3200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF54E1861BBC023900FA2352 /* UIViewInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewInspectable.swift; sourceTree = "<group>"; };
+		BF9FE7D4240C2CCF00678305 /* StylableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylableButton.swift; sourceTree = "<group>"; };
+		BF9FE7D6240C2F0B00678305 /* StyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +64,10 @@
 				BF420C731BBBFEA9009C3200 /* Assets.xcassets */,
 				BF420C751BBBFEA9009C3200 /* LaunchScreen.storyboard */,
 				BF420C781BBBFEA9009C3200 /* Info.plist */,
-				BF420C9C1BBC01A9009C3200 /* Helper */,
+				BF9FE7D4240C2CCF00678305 /* StylableButton.swift */,
+				BF9FE7D6240C2F0B00678305 /* StyledButton.swift */,
 			);
 			path = StyledButton;
-			sourceTree = "<group>";
-		};
-		BF420C9C1BBC01A9009C3200 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				BF54E1861BBC023900FA2352 /* UIViewInspectable.swift */,
-			);
-			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9FE7D5240C2CCF00678305 /* StylableButton.swift in Sources */,
 				BF420C6F1BBBFEA9009C3200 /* ButtonsViewController.swift in Sources */,
-				BF54E1871BBC023900FA2352 /* UIViewInspectable.swift in Sources */,
+				BF9FE7D7240C2F0B00678305 /* StyledButton.swift in Sources */,
 				BF420C6D1BBBFEA9009C3200 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

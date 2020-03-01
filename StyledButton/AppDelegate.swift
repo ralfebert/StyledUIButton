@@ -1,10 +1,5 @@
-//
-//  AppDelegate.swift
-//  StyledButton
-//
-//  Created by Ralf Ebert on 30/09/15.
-//  Copyright © 2015 Example. All rights reserved.
-//
+// © 2020 Ralf Ebert — iOS Example Project: StyledButton
+// License: https://opensource.org/licenses/MIT
 
 import UIKit
 
